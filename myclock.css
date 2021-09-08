@@ -1,0 +1,50 @@
+/* style for clock image */
+#clockContainer
+{
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw;
+    background:url(2.jpg) no-repeat;
+    background-size: 100%;
+    
+    /* border: 2px solid aqua; */
+}
+
+/* constant style for hour,minute,seconds hand vertical lines */
+#hour, #minute, #second
+{
+    position: absolute;
+    background-color: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+/* style for hour hand */
+#hour
+{
+    height: 15%;
+    width: 1%;
+    opacity: 0.6;
+    top: 33%;
+    left: 49.5%;
+    /* display: none; */
+}
+/* style for minute hand */
+#minute{
+    height: 20%;
+    width: 1%;
+    opacity: 0.4;
+    top: 27%;
+    left: 49.74%;
+    /* display: none; */
+}
+/* style for seconds hand */
+#second{
+    height: 26%;
+    width: 1%;
+    opacity: 0.3;
+    top: 23%;
+    left: 49.8%;
+    /* display: none; */
+}
